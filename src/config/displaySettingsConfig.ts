@@ -9,10 +9,10 @@ export const displaySettingsConfig: DisplaySettingsConfig = {
 	// ── 外观 (Appearance) ──────────────────────────────────
 
 	// 主题色选择器开关
-	themeColorSwitchable: true,
+	themeColorSwitchable: false,
 
 	// 文章列表布局切换开关
-	layoutSwitchable: true,
+	layoutSwitchable: false,
 
 	// 卡片边框和阴影开关
 	cardBorderSwitchable: true,
@@ -23,7 +23,7 @@ export const displaySettingsConfig: DisplaySettingsConfig = {
 	// ── 壁纸 (Wallpaper) ──────────────────────────────────
 
 	// 壁纸模式切换开关
-	wallpaperModeSwitchable: true,
+	wallpaperModeSwitchable: false,
 
 	// 水波纹动画开关
 	wavesSwitchable: true,
