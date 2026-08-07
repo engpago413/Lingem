@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Firefly is a feature-rich static blog theme built on **Astro 7** with **Svelte 5** for interactive components. It's a fork of [Fuwari](https://github.com/saicaca/fuwari) extended with extensive features. Primary language is Chinese (Simplified) with i18n for en, zh_TW, ja, ko, ru.
+Lingem's Blog is a personal blog built on **Astro 7** with **Svelte 5** for interactive components. Based on the [Firefly](https://github.com/CuteLeaf/Firefly) theme (forked from [Fuwari](https://github.com/saicaca/fuwari)). Primary language is Chinese (Simplified) with i18n for en, zh_TW, ja, ko, ru.
 
 ## Commands
 
@@ -81,4 +81,3 @@ LQIP data is generated into `src/constants/lqips.json` and committed — regener
 - **Vercel** (default, `vercel.json`)
 - **Cloudflare Workers** (`wrangler.jsonc`, set `CF_WORKERS` env var)
 - Static output to `dist/`
-

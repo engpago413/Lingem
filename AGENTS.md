@@ -1,8 +1,14 @@
 # Repository Guidelines
 
+## Project Overview
+
+Lingem's Blog is a personal blog built on Astro 7 with Svelte islands and TypeScript configuration. Based on the [Firefly](https://github.com/CuteLeaf/Firefly) theme (itself a fork of [Fuwari](https://github.com/saicaca/fuwari)). Primary language is Chinese (Simplified) with i18n for en, zh_TW, ja, ko, ru.
+
+Live site: [https://lingem.pages.dev/](https://lingem.pages.dev/)
+
 ## Project Structure & Module Organization
 
-Firefly is an Astro 7 site with Svelte islands and TypeScript configuration. Main source code lives in `src/`: routes in `src/pages`, layouts in `src/layouts`, reusable UI in `src/components`, styles in `src/styles`, content in `src/content`, helpers in `src/utils`, and Markdown/HTML plugins in `src/plugins`. Site configuration is split across `src/config` with matching type definitions in `src/types`; prefer imports from `@/config` when available. Static files served directly belong in `public`, source-managed images in `src/assets`, docs in `docs` and `Firefly-Docs`, and automation in `scripts`.
+Main source code lives in `src/`: routes in `src/pages`, layouts in `src/layouts`, reusable UI in `src/components`, styles in `src/styles`, content in `src/content`, helpers in `src/utils`, and Markdown/HTML plugins in `src/plugins`. Site configuration is split across `src/config` with matching type definitions in `src/types`; prefer imports from `@/config` when available. Static files served directly belong in `public`, source-managed images in `src/assets`, docs in `docs`, and automation in `scripts`.
 
 ## Build, Test, and Development Commands
 
@@ -23,11 +29,11 @@ Biome is the formatter and linter. It uses tabs for indentation and double quote
 
 ## Testing Guidelines
 
-There is no dedicated unit-test framework configured. Before submitting changes, run `pnpm check`, `pnpm type-check`, and `pnpm build` for rendering, content, or generated asset work. For visual or interactive changes, verify with `pnpm dev` or `pnpm preview` and include screenshots in the PR. Name future tests near the feature they cover, using the local file name as the stem.
+There is no dedicated unit-test framework configured. Before submitting changes, run `pnpm check`, `pnpm type-check`, and `pnpm build` for rendering, content, or generated asset work. For visual or interactive changes, verify with `pnpm dev` or `pnpm preview` and include screenshots in the PR.
 
 ## Commit & Pull Request Guidelines
 
-Use Conventional Commits, matching the current history: `feat: ...`, `fix: ...`, and `chore: ...`. Keep commits and PRs focused on one concern. PRs should include a concise summary, linked issues when relevant, validation commands run, and screenshots for UI changes. Discuss major features or design changes in an issue or discussion before implementation.
+Use Conventional Commits: `feat: ...`, `fix: ...`, `chore: ...`. Keep commits and PRs focused on one concern. PRs should include a concise summary, linked issues when relevant, validation commands run, and screenshots for UI changes.
 
 ## Security & Configuration Tips
 

@@ -10,7 +10,7 @@ Lingem，可以叫我凌哥。这个名字其实没有什么深意，就是取�
 
 # 关于这个博客
 
-本博客使用的 [Firefly](https://firefly.cuteleaf.cn/) 主题是一款基于 [Astro](https://astro.build/) 框架与 [Fuwari](https://github.com/saicaca/fuwari) 模板开发的清新美观且现代化个人博客主题，感兴趣的朋友可以前往了解。
+本博客基于 [Firefly](https://github.com/CuteLeaf/Firefly) 主题构建。Firefly 是一款基于 [Astro](https://astro.build/) 框架与 [Fuwari](https://github.com/saicaca/fuwari) 模板开发的清新美观且现代化个人博客主题，感兴趣的朋友可以前往了解。
 
 ::github{repo="CuteLeaf/Firefly"}
 
